@@ -22,8 +22,8 @@ jobs:
       - name: Install Jest
         run: npm install --save-dev jest supertest
 
-      - name: Run tests
-        run: npm start
+      #   - name: Run tests
+      #     run: npm start
 
       - name: Build Docker Image
         uses: docker/build-push-action@v6

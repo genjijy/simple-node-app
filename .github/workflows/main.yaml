@@ -1,4 +1,4 @@
-name: Title Build & DeploySimple Node App
+name: Build & DeploySimple Node App
 
 on:
   push:
